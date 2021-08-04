@@ -114,7 +114,7 @@ public class MainActivity extends Activity {
             window.setNavigationBarColor(Color.TRANSPARENT);
         }
         setContentView(R.layout.activity_main);
-        tf= Typeface.createFromAsset(this.getAssets(), "fonts/alarm clock.ttf");
+        tf= Typeface.createFromAsset(this.getAssets(), "fonts/Let_s go Digital Regular.ttf");
         minVal= findViewById(R.id.minval);minVal.setTypeface(tf);
         mmVal= findViewById(R.id.mmval);mmVal.setTypeface(tf);
         maxVal= findViewById(R.id.maxval);maxVal.setTypeface(tf);
